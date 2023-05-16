@@ -1,5 +1,6 @@
 # ups-telegram-notify
 Notification of the status of an Uninterruptible Power Supply by Telegram
+
 In the event of a power failure, you may want to be notified in order to check systems that are not protected. It is also interesting to know whether there has been a prolonged power failure and whether measures have been initiated in the form of shutdowns. To realise this via the messanger Telegram, this Linux script solution can be used.
 
 ## DOWNLOAD AND INSTALLATION 
