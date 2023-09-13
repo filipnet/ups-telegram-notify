@@ -23,4 +23,4 @@ curl \
 -s \
 --data "parse_mode=HTML" \
 --data "text=$MESSAGE" \
---data "chat_id=$GROUP_ID" 'https://api.telegram.org/bot'$BOT_TOKEN'/sendMessage' > /dev/nullw
+--data "chat_id=$GROUP_ID" 'https://api.telegram.org/bot'$BOT_TOKEN'/sendMessage' > /dev/null
