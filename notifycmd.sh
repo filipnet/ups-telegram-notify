@@ -2,7 +2,7 @@
 GROUP_ID={ Enter Telegram Group-ID inside here, eg. -100123456703 }
 BOT_TOKEN={ Enter Telegram-Bot Token inside here, eg. 123456789:ABCDEfGHiJklmN_oPQRstUvwQyz }
 NOW=$(date)
-case "${STATE}" in
+case "${NOTIFYTYPE}" in
     ONLINE|COMMOK)
         EMOJI=$'\xE2\x9C\x85' # white heavy check mark
         ;;
