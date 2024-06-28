@@ -42,9 +42,10 @@ SHUTDOWNCMD "/sbin/shutdown -h now"
 ```
 ### Enable and starting service
 ```
-sudo systemctl enable nut-server.service
-sudo systemctl start nut-server.service
+sudo systemctl enable nut-server.service && sudo systemctl start nut-server.service
+sudo systemctl enable nut-monitor.service && sudo systemctl start nut-monitor.service
 sudo systemctl status nut-server.service
+sudo systemctl status nut-monitor.service
 netstat -tulpen |grep 3493
 ```
 
