@@ -55,6 +55,7 @@ Download von Notification Script von Github-Repository
 ```
 cd  /etc/nut
 wget https://raw.githubusercontent.com/filipnet/ups-telegram-notify/main/notifycmd.sh
+chmod +x notifycmd.sh
 ```
 
 ## CONFIGURATION 
@@ -85,6 +86,13 @@ Restart nut services to take affect
 sudo systemctl restart nut-server.service
 sudo systemctl restart nut-driver.service
 sudo systemctl restart nut-monitor.service
+```
+## TEST / DRY-RUN
+
+Execute the script: 
+```
+cd /etc/nut/
+./notifycmd.sh
 ```
 ## LICENSE 
 
